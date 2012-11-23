@@ -1,4 +1,4 @@
-(ns interop.Sample
+(ns inter.Sample
   (:gen-class))
 
 (defn -main []
