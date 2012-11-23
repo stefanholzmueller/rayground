@@ -1,6 +1,8 @@
 package rayground.swing;
 
 
+import rayground.Engine;
+
 import javax.swing.*;
 
 public class Swing {
@@ -17,5 +19,7 @@ public class Swing {
         frame.pack();
         frame.setVisible(true);
 
+        int[] pixels = Engine.renderSync();
+        pixelCanvas.setPixels(pixels);
     }
 }
