@@ -1,4 +1,4 @@
-(ns inter.Engine
+(ns rayground.Engine
   (:gen-class :methods [#^{:static true} [renderSync [] "[I"]]))
 
 (defn -renderSync []

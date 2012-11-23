@@ -6,6 +6,6 @@ public class SomethingTest {
 
     @Test
     public void something() {
-        Assert.assertThat("test", Is.is("test"));
+        Assert.assertThat("rayground.engine", Is.is("rayground.engine"));
     }
 }

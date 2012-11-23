@@ -1,6 +1,6 @@
-(ns test.app
+(ns test.rayground.engine.render
   (:use clojure.test
-        app))
+        rayground.engine.render))
 
 (deftest test-main
   (let [result (with-out-str (-main))]
