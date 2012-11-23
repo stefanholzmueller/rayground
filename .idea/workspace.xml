@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="122252ff-d8a7-4412-b189-9c2f66b5422a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/clojure_project.xml" afterPath="$PROJECT_DIR$/.idea/clojure_project.xml" />
+      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground.engine\geometry.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj" />
+      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground.engine\render.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render.clj" />
+      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground.engine\util.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine/engine.iml" afterPath="$PROJECT_DIR$/engine/engine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/render.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/render.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swing/swing.iml" afterPath="$PROJECT_DIR$/swing/swing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine/pom.xml" afterPath="$PROJECT_DIR$/engine/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swing/src/test/java/SomethingTest.java" afterPath="$PROJECT_DIR$/swing/src/test/java/SomethingTest.java" />
     </list>
     <ignored path="rayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +68,7 @@
       <file leaf-file-name="util.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/util.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +102,7 @@
         </entry>
       </file>
       <file leaf-file-name="render.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/render.clj">
+        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
               <folding />
@@ -110,25 +111,34 @@
         </entry>
       </file>
       <file leaf-file-name="util.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/util.clj">
+        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="41" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+            <state line="1" column="27" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.87725633">
+            <state line="53" column="48" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SomethingTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swing/src/test/java/SomethingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="45" selection-start="193" selection-end="193" vertical-scroll-proportion="0.18888889">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="geometry.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/geometry.clj">
+        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
               <folding />
@@ -139,7 +149,7 @@
       <file leaf-file-name="geometry.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/geometry.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/swing/src/main/java/PixelCanvas.java" />
-        <option value="$PROJECT_DIR$/swing/src/main/java/rayground/swing/PixelCanvas.java" />
         <option value="$PROJECT_DIR$/engine/src/main/clojure/rayground/Engine.clj" />
         <option value="$PROJECT_DIR$/swing/pom.xml" />
         <option value="$PROJECT_DIR$/engine/src/test/clojure/test/app.clj" />
@@ -173,7 +181,9 @@
         <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/render.clj" />
         <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/geometry.clj" />
         <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/util.clj" />
+        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/tests.clj" />
         <option value="$PROJECT_DIR$/engine/pom.xml" />
+        <option value="$PROJECT_DIR$/swing/src/test/java/SomethingTest.java" />
       </list>
     </option>
   </component>
@@ -426,94 +436,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="swing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -544,7 +466,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rayground.engine" />
+              <option name="myItemId" value="rayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,6 +554,7 @@
     <property name="options.lastSelected" value="org.jetbrains.plugins.clojure.settings.ClojureConfigurable" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -643,6 +570,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\projects\rayground\engine\src\test\clojure\rayground\engine" />
       <recent name="C:\code\projects\rayground\engine\src\main\clojure\rayground" />
       <recent name="C:\code\projects\rayground\engine\src\main\clojure\rayground\engine" />
       <recent name="C:\code\projects\rayground\engine\src\main\clojure" />
@@ -880,10 +808,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21643163" sideWeight="0.6709007" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21643163" sideWeight="0.6801386" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19558553" sideWeight="0.6709007" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19558553" sideWeight="0.6801386" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31986144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -949,18 +877,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rayground.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="779" selection-end="779" vertical-scroll-proportion="0.36823106" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swing/src/test/java/SomethingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.18235995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk1.7.0_09/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="-2.301444">
@@ -1135,9 +1051,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/util.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1151,35 +1088,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/geometry.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/render.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/geometry.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/util.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.87725633">
+        <state line="53" column="48" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swing/src/test/java/SomethingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="193" selection-end="193" vertical-scroll-proportion="0.18888889">
           <folding />
         </state>
       </provider>

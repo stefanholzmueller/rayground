@@ -27,6 +27,15 @@
                 <groupId>com.theoryinpractise</groupId>
                 <artifactId>clojure-maven-plugin</artifactId>
                 <version>1.3.10</version>
+                <configuration>
+                    <namespaces>
+                        <namespace>rayground.*</namespace>
+                        <namespace>test.rayground.*</namespace>
+                    </namespaces>
+                    <testSourceDirectories>
+                        <testSourceDirectory>src/test/clojure</testSourceDirectory>
+                    </testSourceDirectories>
+                </configuration>
                 <executions>
                     <execution>
                         <id>default</id>
@@ -35,6 +44,20 @@
                             <goal>compile</goal>
                             <goal>add-test-source</goal>
                             <goal>testCompile</goal>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>clojure-compile</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>clojure-test</id>
+                        <phase>test</phase>
+                        <goals>
                             <goal>test</goal>
                         </goals>
                     </execution>
