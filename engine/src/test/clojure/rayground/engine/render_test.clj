@@ -1,4 +1,4 @@
-(ns test.rayground.engine.render
+(ns rayground.engine.render-test
   (:use rayground.engine.render)
   (:use clojure.test))
 

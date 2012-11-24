@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="122252ff-d8a7-4412-b189-9c2f66b5422a" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground.engine\geometry.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj" />
-      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground.engine\render.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render.clj" />
-      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground.engine\util.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util.clj" />
+      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground\engine\geometry.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry_test.clj" />
+      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground\engine\render.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render_test.clj" />
+      <change type="MOVED" beforePath="C:\code\projects\rayground\engine\src\test\clojure\rayground\engine\util.clj" afterPath="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine/engine.iml" afterPath="$PROJECT_DIR$/engine/engine.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine/pom.xml" afterPath="$PROJECT_DIR$/engine/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swing/src/test/java/SomethingTest.java" afterPath="$PROJECT_DIR$/swing/src/test/java/SomethingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swing/swing.iml" afterPath="$PROJECT_DIR$/swing/swing.iml" />
     </list>
     <ignored path="rayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,15 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="util.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/util.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Engine.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/Engine.clj">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,46 +93,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="render.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render.clj">
+      <file leaf-file-name="render_test.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="util.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util.clj">
+      <file leaf-file-name="util_test.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engine/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="48" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+            <state line="55" column="10" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.77962965">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomethingTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SomethingTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swing/src/test/java/SomethingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="45" selection-start="193" selection-end="193" vertical-scroll-proportion="0.18888889">
+            <state line="8" column="45" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geometry.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj">
+      <file leaf-file-name="geometry_test.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,10 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/engine/src/main/clojure/rayground/Engine.clj" />
-        <option value="$PROJECT_DIR$/swing/pom.xml" />
-        <option value="$PROJECT_DIR$/engine/src/test/clojure/test/app.clj" />
-        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/app.clj" />
         <option value="$PROJECT_DIR$/swing/src/main/java/rayground/swing/Swing.java" />
         <option value="$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/util.clj" />
         <option value="$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/geometry.clj" />
@@ -181,9 +169,13 @@
         <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/render.clj" />
         <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/geometry.clj" />
         <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground.engine/util.clj" />
-        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/tests.clj" />
-        <option value="$PROJECT_DIR$/engine/pom.xml" />
         <option value="$PROJECT_DIR$/swing/src/test/java/SomethingTest.java" />
+        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj" />
+        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/tests.clj" />
+        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry_test.clj" />
+        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render_test.clj" />
+        <option value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util_test.clj" />
+        <option value="$PROJECT_DIR$/engine/pom.xml" />
       </list>
     </option>
   </component>
@@ -576,7 +568,7 @@
       <recent name="C:\code\projects\rayground\engine\src\main\clojure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Swing">
+  <component name="RunManager" selected="Clojure Script.geometry">
     <configuration default="false" name="Swing" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="rayground.swing.Swing" />
       <option name="VM_PARAMETERS" />
@@ -589,6 +581,28 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="swing" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tests" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="engine" />
+      <setting name="path" value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/tests.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="geometry" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="engine" />
+      <setting name="path" value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/engine/src/test/clojure/rayground/engine" />
+      <setting name="repl" value="false" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -750,8 +764,10 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Swing" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Script.tests" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Script.geometry" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -793,27 +809,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21643163" sideWeight="0.6801386" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22256285" sideWeight="0.6801386" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19558553" sideWeight="0.6801386" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31986144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31986144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -879,230 +895,81 @@
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../../jdk1.7.0_09/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="-2.301444">
-          <folding>
-            <element signature="docComment;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_CUSTOM#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_INT_RGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_INT_ARGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_INT_ARGB_PRE#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_INT_BGR#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_3BYTE_BGR#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_4BYTE_ABGR#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_4BYTE_ABGR_PRE#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_USHORT_565_RGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_USHORT_555_RGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_BYTE_GRAY#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_USHORT_GRAY#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_BYTE_BINARY#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;field#TYPE_BYTE_INDEXED#0;class#BufferedImage#0" expanded="false" />
-            <element signature="initializer##0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#BufferedImage#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#BufferedImage#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#BufferedImage#1;class#BufferedImage#0" expanded="false" />
-            <element signature="method#BufferedImage#1;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#BufferedImage#2;class#BufferedImage#0" expanded="false" />
-            <element signature="method#BufferedImage#2;class#BufferedImage#0" expanded="false" />
-            <element signature="e#26210#26273#0" expanded="false" />
-            <element signature="e#27823#27872#0" expanded="false" />
-            <element signature="docComment;method#getType#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getType#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getColorModel#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getColorModel#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getRaster#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getRaster#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getAlphaRaster#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getAlphaRaster#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getRGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getRGB#1;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getRGB#1;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#setRGB#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#setRGB#1;class#BufferedImage#0" expanded="false" />
-            <element signature="method#setRGB#1;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getWidth#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getWidth#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getHeight#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getHeight#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getWidth#1;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getWidth#1;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getHeight#1;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getHeight#1;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getSource#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getSource#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getProperty#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getProperty#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getProperty#1;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getProperty#1;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getGraphics#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getGraphics#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#createGraphics#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#createGraphics#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getSubimage#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getSubimage#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#isAlphaPremultiplied#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#isAlphaPremultiplied#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#coerceData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#coerceData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#toString#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getSources#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getSources#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getPropertyNames#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getPropertyNames#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getMinX#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getMinX#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getMinY#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getMinY#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getSampleModel#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getSampleModel#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getNumXTiles#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getNumXTiles#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getNumYTiles#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getNumYTiles#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getMinTileX#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getMinTileX#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getMinTileY#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getMinTileY#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getTileWidth#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getTileWidth#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getTileHeight#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getTileHeight#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getTileGridXOffset#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getTileGridXOffset#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getTileGridYOffset#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getTileGridYOffset#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getTile#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getTile#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="e#54419#54477#0" expanded="false" />
-            <element signature="docComment;method#getData#1;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getData#1;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#copyData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#copyData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#setData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#setData#0;class#BufferedImage#0" expanded="false" />
-            <element signature="e#58867#58925#0" expanded="false" />
-            <element signature="docComment;method#addTileObserver#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#addTileObserver#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#removeTileObserver#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#removeTileObserver#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#isTileWritable#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#isTileWritable#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getWritableTileIndices#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getWritableTileIndices#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#hasTileWriters#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#hasTileWriters#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getWritableTile#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getWritableTile#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#releaseWritableTile#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#releaseWritableTile#0;class#BufferedImage#0" expanded="false" />
-            <element signature="docComment;method#getTransparency#0;class#BufferedImage#0" expanded="false" />
-            <element signature="method#getTransparency#0;class#BufferedImage#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="46" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="-2.301444" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="386" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="4" selection-start="386" selection-end="408" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swing/src/main/java/rayground/swing/PixelCanvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="100" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="37" column="100" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swing/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swing/src/main/java/rayground/swing/Swing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="522" selection-end="528" vertical-scroll-proportion="0.64440435">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/render.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/trace.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="29" selection-start="522" selection-end="528" vertical-scroll-proportion="0.64440435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/util.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/Engine.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/render.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/trace.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swing/src/test/java/SomethingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="10" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.77962965">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/src/main/clojure/rayground/engine/geometry.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/geometry_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/render_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engine/pom.xml">
+    <entry file="file://$PROJECT_DIR$/engine/src/test/clojure/rayground/engine/util_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="48" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swing/src/test/java/SomethingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="193" selection-end="193" vertical-scroll-proportion="0.18888889">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

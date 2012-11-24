@@ -1,4 +1,4 @@
-(ns test.rayground.engine.geometry
+(ns rayground.engine.geometry-test
   (:use rayground.engine.geometry)
   (:use clojure.test)
   (:use midje.sweet)
@@ -26,3 +26,5 @@
   (is (= (norm [2 0 0]) 2.0))
   (is (roughly (norm [1 2 2]) 3))
   )
+
+(run-tests)

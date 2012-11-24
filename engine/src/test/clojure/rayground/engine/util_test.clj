@@ -1,4 +1,4 @@
-(ns test.rayground.engine.util
+(ns rayground.engine.util-test
   (:use rayground.engine.util)
   (:use clojure.test)
   (:use midje.sweet)
