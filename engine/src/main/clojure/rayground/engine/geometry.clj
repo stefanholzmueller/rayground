@@ -7,9 +7,9 @@
   (let [length (norm v)]
     (map #(/ % length) v)))
 
-(defrecord Ray [direction origin])
+(defrecord Ray [origin direction])
 
-(defn new-ray [direction origin]
-  {:pre [(= (count direction) 3) (= (count origin) 3)]}
-  (->Ray (normalize direction) origin)
+(defn new-ray [origin direction]
+  {:pre [(= (count origin) 3) (= (count direction) 3)]}
+  (->Ray origin (normalize direction))
   )
