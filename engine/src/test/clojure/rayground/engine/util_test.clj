@@ -5,7 +5,7 @@
   (:require [clojure.math.numeric-tower :as math]))
 
 (deftest test_third
-  (is (third [1 2 3]) 3333333333333333333))
+  (is (= (third [1 2 3]) 3)))
 
 (deftest test_square
   (is (= (square 3) 9))

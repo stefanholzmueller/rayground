@@ -5,10 +5,8 @@
   (:import rayground.engine.geometry.Ray)
   )
 
-(deftest corrupt_vectors
-  (fact (new-ray [] []) => (throws AssertionError))
-  (fact (new-ray [1 2 3] []) => (throws AssertionError))
-  )
+(fact (new-ray [] []) => (throws AssertionError))
+(fact (new-ray [1 2 3] []) => (throws AssertionError))
 
 (deftest define_a_ray
   (def r (new-ray [1 2 3] [-1.0 -2.0 -3.0]))
@@ -26,5 +24,3 @@
   (is (= (norm [2 0 0]) 2.0))
   (is (roughly (norm [1 2 2]) 3))
   )
-
-(run-tests)
