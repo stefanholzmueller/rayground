@@ -26,3 +26,21 @@
   (norm [2 0 0]) => 2.0
   (norm [1 2 2]) => 3.0
   )
+
+(fact2 "no intersection between ray and sphere returns nil"
+  (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 0] [1 0 0])) => nil
+  )
+
+(fact2 "intersection between ray and sphere returns closest intersection"
+  (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 0] [0 0 1])) => [0.0 0.0 4.0]
+  (intersect (new-sphere [0 0 9] 3) (new-ray [3 0 3] [0 0 1])) => [3.0 0.0 9.0]
+  )
+
+(fact2 "no intersection in direction of ray"
+  (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 8] [0 0 1])) => nil
+  )
+
+(fact2 "dot product"
+  (dot [1 1 1] [1 2 3]) => 6
+  (dot [1 2 3] [1 0 -1]) => -2
+  )
