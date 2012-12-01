@@ -1,14 +1,15 @@
 (ns rayground.engine.util-test
   (:use rayground.engine.util)
-  (:use clojure.test)
+  (:use rayground.tests)
   (:use midje.sweet)
-  (:require [clojure.math.numeric-tower :as math]))
+  )
 
-(deftest test_third
-  (is (= (third [1 2 3]) 3)))
+(fact2 "returns third element"
+  (third [1 2 3]) => 3
+  )
 
-(deftest test_square
-  (is (= (square 3) 9))
-  (is (= (square -1) 1))
-  (is (roughly (square 2) 2))
+(fact2 "squares numbers"
+  (square 4) => 16
+  (square -1) => 1
+  (square (Math/sqrt 2)) => (roughly 2)
   )

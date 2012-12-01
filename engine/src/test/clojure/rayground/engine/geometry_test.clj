@@ -1,15 +1,7 @@
 (ns rayground.engine.geometry-test
   (:use rayground.engine.geometry)
-  (:use clojure.test)
+  (:use rayground.tests)
   (:use midje.sweet)
-  )
-
-(defmacro fact2 [name & body]
-  `(deftest ~(symbol (clojure.string/replace name #"[^a-zA-Z0-9]" "_"))
-     (fact ~name
-       ~@body
-       )
-     )
   )
 
 (fact2 "assert vectors have exactly 3 elements"

@@ -1,8 +1,6 @@
 (ns rayground.engine.render-test
   (:use rayground.engine.render)
-  (:use clojure.test))
+  (:use rayground.tests)
+  (:use midje.sweet)
+  )
 
-(deftest test-main
-  (let [result (with-out-str (-main))]
-    (is
-      (= "Hello, World!" result))))
