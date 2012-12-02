@@ -7,6 +7,7 @@
 
 (fact2 "returns background color #666666 when ray does not intersect with anything"
   (trace (new-ray [0 0 0] [0 0 1]) {}) => 0x666666
+  (trace (new-ray [0 0 0] [0 0 1]) {:sphere (new-sphere [0 3 5] 1)}) => 0x666666
   )
 
 (fact2 "returns object color #00FF00 when ray does intersect with anything"

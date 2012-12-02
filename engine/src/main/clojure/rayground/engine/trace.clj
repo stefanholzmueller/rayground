@@ -1,5 +1,6 @@
 (ns rayground.engine.trace
   (:use rayground.engine.geometry)
+  (:use rayground.engine.util)
   )
 
 (def background-color 0x666666)
