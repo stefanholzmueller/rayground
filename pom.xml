@@ -11,8 +11,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>swing</module>
         <module>engine</module>
+        <module>client</module>
     </modules>
 
     <properties>

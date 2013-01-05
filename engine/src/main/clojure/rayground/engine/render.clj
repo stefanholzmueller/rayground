@@ -2,27 +2,29 @@
   (:use rayground.engine.geometry)
   (:use rayground.engine.trace)
   (:use rayground.engine.util)
+  (:import java.awt.image.BufferedImage)
   )
 
 (def eye-point [0 0 0])
 (def focal-length 1000)
 
 (defn render [width height world]
-  (let [pixels       (int-array (* height width))
+  (let [image        (BufferedImage. width height BufferedImage/TYPE_INT_RGB)
         half-height  (int (/ height 2))
         half-width   (int (/ width 2))
         ]
     (doseq [h  (range 0 height)
             w  (range 0 width)
             ]
-      (let [i    (+ (* h width) w)
-            x    (- w half-width)
+      (let [x    (- w half-width)
             y    (+ half-height (- h))
-            ray  (new-ray eye-point [x y focal-length])
+            z    focal-length
+            ray  (new-ray eye-point [x y z])
             ]
-        (aset-int pixels i (trace ray world))
+        (.setRGB image w h (trace ray world))
         )
       )
-    pixels
+    image
     )
   )
+

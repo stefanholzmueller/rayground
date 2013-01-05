@@ -5,7 +5,7 @@
   (:use midje.sweet)
   )
 
-(fact2 "returns correctly sized integer array"
+(future-fact2 "returns correctly sized integer array"
   (count (render 16 9 {})) => (* 16 9)
   (render 16 9 {}) => (has every? #{0xFFFFFF})
 

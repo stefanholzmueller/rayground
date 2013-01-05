@@ -20,7 +20,7 @@
   (->Ray origin (normalize direction))
   )
 
-(defrecord Sphere [center radius])
+(defrecord Sphere [center ^double radius])
 
 (defn new-sphere [center radius]
   {:pre [(= (count center) 3) (number? radius)]}
