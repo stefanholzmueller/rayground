@@ -5,21 +5,19 @@
   (:import java.awt.image.BufferedImage)
   )
 
-(def eye-point [0 0 0])
-(def focal-length 1000)
-
 (defn render [width height world]
-  (let [image        (BufferedImage. width height BufferedImage/TYPE_INT_RGB)
-        half-height  (int (/ height 2))
-        half-width   (int (/ width 2))
-        z            focal-length        ; avoid repeated var lookup
+  (let [image         (BufferedImage. width height BufferedImage/TYPE_INT_RGB)
+        half-height   (int (/ height 2))
+        half-width    (int (/ width 2))
+        eye-point     [0 0 0]
+        focal-length  1000
         ]
     (doseq [h  (range 0 height)
             w  (range 0 width)
             ]
       (let [x    (- w half-width)
             y    (+ half-height (- h))
-            ray  (new-ray eye-point [x y z])
+            ray  (new-ray eye-point [x y focal-length])
             ]
         (.setRGB image w h (trace ray world))
         )
