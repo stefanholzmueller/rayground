@@ -5,11 +5,22 @@
   (:use midje.sweet)
   )
 
-(future-fact2 "returns correctly sized integer array"
-  (count (render 16 9 {})) => (* 16 9)
-  (render 16 9 {}) => (has every? #{0xFFFFFF})
+(fact2 "returns correctly sized RenderedImage"
+  (let [image (render 16 9 {})]
+    (.getWidth image) => 16
+    (.getHeight image) => 9
+    )
+  )
+
+(fact2 "returns RenderedImage with correctly painted pixels"
+  (-> (render 16 9 {})
+    .getData
+    .getDataBuffer
+    .getData
+    (aget 0)
+    ) => 0x123456
 
   (provided
-    (trace anything {}) => 0xFFFFFF :times (* 16 9)
+    (trace anything {}) => 0x123456
     )
   )
