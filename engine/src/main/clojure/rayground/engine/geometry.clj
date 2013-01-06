@@ -1,11 +1,15 @@
 (ns rayground.engine.geometry
   (:use rayground.engine.util))
 
-(defn norm [v] (Math/sqrt (reduce + (map square v))))
+(defn norm [v]
+  (Math/sqrt (reduce + (map square v)))
+  )
 
 (defn normalize [v]
   (let [length (norm v)]
-    (map #(/ % length) v)))
+    (mapv #(/ % length) v)
+    )
+  )
 
 (defn dot
   "dot product"
@@ -20,7 +24,7 @@
   (->Ray origin (normalize direction))
   )
 
-(defrecord Sphere [center ^double radius])
+(defrecord Sphere [center radius])
 
 (defn new-sphere [center radius]
   {:pre [(= (count center) 3) (number? radius)]}

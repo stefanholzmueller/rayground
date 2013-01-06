@@ -31,9 +31,9 @@
   (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 0] [1 0 0])) => nil
   )
 
-(fact2 "intersection between ray and sphere returns closest intersection"
-  (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 0] [0 0 1])) => {:distance 4.0 :point [0.0 0.0 4.0]}
-  (intersect (new-sphere [0 0 9] 3) (new-ray [3 0 3] [0 0 1])) => {:distance 6.0 :point [3.0 0.0 9.0]}
+(fact2 "intersection between ray and sphere returns closest intersection point"
+  (:point (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 0] [0 0 1]))) => [0.0 0.0 4.0]
+  (:point (intersect (new-sphere [0 0 9] 3) (new-ray [3 0 3] [0 0 1]))) => [3.0 0.0 9.0]
   )
 
 (fact2 "no intersection in direction of ray"
@@ -41,10 +41,11 @@
   )
 
 (fact2 "distance to closest intersection"
-  (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 -2] [0 0 1])) => {:distance 6.0 :point [0.0 0.0 4.0]}
+  (:distance (intersect (new-sphere [0 0 5] 1) (new-ray [0 0 -2] [0 0 1]))) => 6.0
   )
 
 (fact2 "dot product"
   (dot [1 1 1] [1 2 3]) => 6
+  (dot [5 0 0] [0 1 0]) => 0
   (dot [1 2 3] [1 0 -1]) => -2
   )
