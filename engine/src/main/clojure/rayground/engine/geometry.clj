@@ -28,7 +28,7 @@
   )
 
 (defn intersect
-  "returns the coordinates of the closest intersection, or nil"
+  "returns the closest intersection as a map containing the distance and the point, or nil"
   [sphere ray]
   (let [offset (:origin ray)
         d (:direction ray)
@@ -38,7 +38,7 @@
     (if (>= discriminant 0)
       (let [distance (- dc (Math/sqrt discriminant))]
         (if (>= distance 0)
-          (mapv + (map #(* distance %) d) offset)
+          {:distance distance :point (mapv + (map #(* distance %) d) offset)}
           nil
           )
         )
