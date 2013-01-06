@@ -10,8 +10,8 @@
   (let [deftest-sym (gensym (str "test_" (clojure.string/replace name #"[^a-zA-Z0-9]" "_")))
         midje-call (symbol (clojure.string/replace wrapper #"2$" ""))
         ]
-    `(deftest ~deftest-sym
-      (~midje-call ~name ~@body)
+    (list 'deftest deftest-sym
+      `(~midje-call ~name ~@body)
       )
     )
   )
